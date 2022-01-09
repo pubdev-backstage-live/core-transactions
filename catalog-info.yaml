@@ -11,4 +11,4 @@ spec:
   owner: core-team
   system: core
   dependsOn:
-    - balances
+    - component:balances
