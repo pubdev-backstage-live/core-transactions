@@ -1,0 +1,14 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: transactions
+  tags:
+    - dotnet
+    - microservice
+spec:
+  type: service
+  lifecycle: production
+  owner: core-team
+  system: core
+  dependsOn:
+    - balances
